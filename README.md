@@ -17,6 +17,11 @@ docker run --rm -it -v `pwd`:/go/src/github.com/bqluan/spider spider-dev bash
 env GOOS=windows GOARCH=386 go build
 ```
 
+### Build for Mac ###
+```
+env GOOS=darwin GOARCH=amd64 go build
+```
+
 ### Build for Linux ###
 ```
 go build
